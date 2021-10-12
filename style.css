@@ -22,14 +22,18 @@ a:visited {
     text-decoration: none;
 }
 .first-container {
-    background: url(https://images.unsplash.com/photo-1488831861984-179da3647265?dpr=2&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=) no-repeat center center;
+    background: url(https://media-exp1.licdn.com/dms/image/C561BAQGLjJ0ZpqJ-JQ/company-background_10000/0/1519797201497?e=1634137200&v=beta&t=5bZFeX1rH_R4_0-ZlbDgw22GilS1iYy7JOlqr0jTxW8);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
     position: relative;
-    height: 40%;
+    /* background: rgba(0,0 ,0, 0.7,) url('images/demo/dtu\ background.jpg'); */
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 90%;
+    background: rgba(0,0 ,0, 0.7,);
 }
 .mid h1{
     font-family: 'Roboto', sans-serif;
@@ -95,6 +99,9 @@ a:visited {
 }
 
 .logo {position: absolute;
-    left: 12px;
-    padding: 4px 28px 0 30px;
-    top: 6px;}
+    
+}
+.secondbox {
+    margin-top: 0px;
+    padding-top: 0px;
+}
